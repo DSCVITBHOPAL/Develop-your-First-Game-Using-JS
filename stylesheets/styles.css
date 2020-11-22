@@ -56,9 +56,25 @@ button{
 }
 
 .btn-roll{
-    top: 300px;
+    top: 330px;
 }
 
 .btn-hold {
-    top:600px;
+    top:350px;
+}
+
+.dice {
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    height: 100px;
+}
+
+.active {
+    background-color: #f7f7f7;
+}
+
+.active .player-name {
+    font-weight: 300;
 }
