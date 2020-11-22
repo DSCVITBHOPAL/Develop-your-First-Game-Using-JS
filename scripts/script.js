@@ -69,7 +69,7 @@ document.querySelector('.btn-hold').addEventListener('click', () => {
         scores[activePlayer] += roundScore
     }
 
-    document.getElementsById('score-' + activePlayer).textContent = scores[activePlayer];
+    document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
 
     if(scores[activePlayer] >= 100){
         document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
