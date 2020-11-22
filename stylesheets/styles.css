@@ -1,0 +1,64 @@
+#game-panel{
+    position: absolute;
+    width: 100vw;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.col {
+    text-align: center;
+}
+
+.player-name{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.player-score {
+    font-weight: 100;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: red;
+}
+
+.player-current-box {
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button{
+   position: absolute;
+   width: 200px;
+   left: 50%;
+   transform: translateX(-50%);
+   color: grey;
+   background: none;
+   border: none; 
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: 300;
+   transform: background-color 0.3s, color 0.3s;
+}
+
+.btn-new {
+    top: 80px;
+}
+
+.btn-roll{
+    top: 300px;
+}
+
+.btn-hold {
+    top:600px;
+}
